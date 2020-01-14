@@ -1,0 +1,16 @@
+[2020-01-09 20:50:31:016] [ERROR] - utils.FileUtil.readCsv(FileUtil.java:28) - data\param.json (系统找不到指定的路径。)
+java.io.FileNotFoundException: data\param.json (系统找不到指定的路径。)
+	at utils.FileUtil.readCsv(FileUtil.java:28) [classes/:?]
+	at EscapeTest.main(EscapeTest.java:11) [test-classes/:?]
+[2020-01-09 20:50:51:288] [ERROR] - utils.FileUtil.readCsv(FileUtil.java:28) - data\param.json (系统找不到指定的路径。)
+java.io.FileNotFoundException: data\param.json (系统找不到指定的路径。)
+	at utils.FileUtil.readCsv(FileUtil.java:28) [classes/:?]
+	at EscapeTest.main(EscapeTest.java:11) [test-classes/:?]
+[2020-01-09 20:51:33:463] [ERROR] - utils.FileUtil.readCsv(FileUtil.java:28) - data\capability.json (系统找不到指定的路径。)
+java.io.FileNotFoundException: data\capability.json (系统找不到指定的路径。)
+	at utils.FileUtil.readCsv(FileUtil.java:28) [classes/:?]
+	at EscapeTest.main(EscapeTest.java:11) [test-classes/:?]
+[2020-01-09 20:52:18:692] [ERROR] - utils.FileUtil.readCsv(FileUtil.java:28) - test\data\capability.json (系统找不到指定的路径。)
+java.io.FileNotFoundException: test\data\capability.json (系统找不到指定的路径。)
+	at utils.FileUtil.readCsv(FileUtil.java:28) [classes/:?]
+	at EscapeTest.main(EscapeTest.java:11) [test-classes/:?]
