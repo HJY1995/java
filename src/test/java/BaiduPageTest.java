@@ -25,6 +25,6 @@ public class BaiduPageTest {
     }
 
     public static void main(String[] args) {
-        
+
     }
 }

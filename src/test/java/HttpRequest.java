@@ -95,12 +95,5 @@ public class HttpRequest {
         CloseableHttpClient client1=HttpClients.custom().setDefaultCookieStore(cookieStore).build();
         CloseableHttpClient client2=HttpClients.custom().setDefaultCookieStore(cookieStore).build();
 
-
-
-
-
-
-
-
     }
 }
