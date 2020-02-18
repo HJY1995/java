@@ -1,5 +1,6 @@
 package webui;
 
+import lombok.extern.slf4j.Slf4j;
 import org.apache.commons.io.FileUtils;
 import org.checkerframework.checker.nullness.compatqual.NullableDecl;
 import org.openqa.selenium.*;
@@ -19,7 +20,7 @@ import java.util.List;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
-
+@Slf4j
 public class KeywordOfWeb {
     public WebDriver driver;
 

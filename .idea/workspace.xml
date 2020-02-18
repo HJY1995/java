@@ -1,13 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="javaStudy:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="a2097053-6d88-4d1b-9ac9-e9cf2a082a5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/javaStudy.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaStudy_jar.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jmeterJava/Hello.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/jmeterJava/Request.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BaiduPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BaiduPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HttpRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HttpRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/BaiduPageTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/BaiduPageTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/webui/KeywordOfWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webui/KeywordOfWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/appdriver/AppDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appdriver/AppDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/appdriver/BrowserDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appdriver/BrowserDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/appdriver/KeywordOfApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appdriver/KeywordOfApp.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/appdriver/VXDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appdriver/VXDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testing/class8/MeituanTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testing/class8/MeituanTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/testing/class8/QzoneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testing/class8/QzoneTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/page/BaiduPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/BaiduPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/utils/GoogleDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/GoogleDriver.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webui/KeywordOfWeb$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webui/KeywordOfWeb$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webui/KeywordOfWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webui/KeywordOfWeb.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AndroidBrowserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AndroidBrowserTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EscapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EscapeTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/WeixinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WeixinTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,19 +92,22 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jmeterProject" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
-      <recent name="" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\IdeaProjects\javaStudy\src\test\data" />
       <recent name="E:\IdeaProjects\javaStudy\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\IdeaProjects\javaStudy\src\test\java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.WeixinTest">
@@ -106,9 +132,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeixinTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="WeixinTest" />
+    <configuration name="WeixinTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="Hello" />
       <module name="javaStudy" />
+      <option name="VM_PARAMETERS" value="-Dfile.encoding=utf-8" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -125,6 +152,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.AppTest" />
+      <item itemvalue="Application.EscapeTest" />
+      <item itemvalue="Application.Test1" />
+      <item itemvalue="Application.WeixinTest" />
+      <item itemvalue="TestNG.AppTest.startAndKillAppium" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Application.WeixinTest" />
@@ -185,6 +219,14 @@
       <workItem from="1578831836961" duration="2165000" />
       <workItem from="1579008156063" duration="1212000" />
     </task>
+    <task id="LOCAL-00001" summary="allin">
+      <created>1579011418223</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579011418223</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,19 +245,55 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="allin" />
+    <option name="LAST_COMMIT_MESSAGE" value="allin" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1579010895636">
+    <state x="248" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582013367028">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1579010895636" />
-    <state x="260" y="61" key="SettingsEditor" timestamp="1579011353971">
+    <state x="248" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.824@0.0.1536.824" timestamp="1582013367028" />
+    <state x="0" y="242" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1582013174196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="260" y="61" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1579011353971" />
-    <state x="454" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1579010853322">
+    <state x="0" y="242" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1582013174196" />
+    <state x="583" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1582008122719">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="454" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1579010853322" />
+    <state x="583" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582008122719" />
+    <state x="524" y="272" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582017757479">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="524" y="272" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1582017757479" />
+    <state x="323" y="15" width="974" height="809" key="CommitChangelistDialog2" timestamp="1579011416293">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="323" y="15" width="974" height="809" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579011416293" />
+    <state x="147" y="66" key="DiffContextDialog" timestamp="1579011383162">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="147" y="66" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1579011383162" />
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582017934498">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582017934498" />
+    <state x="323" y="0" key="SettingsEditor" timestamp="1582017780270">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="323" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582017780270" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1579011509842">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579011509842" />
+    <state x="454" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1582013424207">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582013424207" />
+    <state x="560" y="210" key="git4idea.merge.GitPullDialog" timestamp="1579011515105">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="560" y="210" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1579011515105" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
