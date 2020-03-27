@@ -7,15 +7,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a2097053-6d88-4d1b-9ac9-e9cf2a082a5e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/artifacts/javaStudy_jar.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jmeterJava/Hello.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/jmeterJava/Request.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paixu/Kuaisu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paixu/Maopao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/paixu/Xuanze.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/shen_qian_copy/qian_copy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/shen_qian_copy/qian_copy/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/shen_qian_copy/qian_copy/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/shen_qian_copy/shen_copy/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/shen_qian_copy/shen_copy/Subject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/shen_qian_copy/shen_copy/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/webui/KeywordOfWeb.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/webui/KeywordOfWeb.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/jmeterJava/HelloThree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/jmeterJava/HelloThree.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/appdriver/AppDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appdriver/AppDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/appdriver/BrowserDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appdriver/BrowserDriver.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/appdriver/KeywordOfApp.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/appdriver/KeywordOfApp.class" afterDir="false" />
@@ -24,14 +27,15 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/testing/class8/QzoneTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/testing/class8/QzoneTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/page/BaiduPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/page/BaiduPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/utils/GoogleDriver.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/utils/GoogleDriver.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/webui/KeywordOfWeb$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webui/KeywordOfWeb$1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/webui/KeywordOfWeb.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webui/KeywordOfWeb.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/AndroidBrowserTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AndroidBrowserTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/AppTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/AppTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/EscapeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/EscapeTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/HttpRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HttpRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/javaStudy.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/META-INF/javaStudy.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/Test1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/Test1.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/WeixinTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/WeixinTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmeterJava/Hello.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/jmeterJava/Request.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/jmeterJava/Request.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,11 +96,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../jmeterProject" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Jenkins" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -110,62 +114,86 @@
       <recent name="E:\IdeaProjects\javaStudy\src\test\java" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.WeixinTest">
-    <configuration name="AppTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
+  <component name="RunManager" selected="Application.Test (1)">
+    <configuration name="Maopao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paixu.Maopao" />
       <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paixu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EscapeTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="EscapeTest" />
+    <configuration name="Subject" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shen_qian_copy.qian_copy.Subject" />
       <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shen_qian_copy.qian_copy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test1" />
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shen_qian_copy.shen_copy.Test" />
       <module name="javaStudy" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shen_qian_copy.shen_copy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WeixinTest" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="Hello" />
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="shen_qian_copy.qian_copy.Test" />
       <module name="javaStudy" />
-      <option name="VM_PARAMETERS" value="-Dfile.encoding=utf-8" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="shen_qian_copy.qian_copy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AppTest.startAndKillAppium" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Xuanze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="paixu.Xuanze" />
       <module name="javaStudy" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AppTest" />
-      <option name="METHOD_NAME" value="startAndKillAppium" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="paixu.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AppTest" />
-      <item itemvalue="Application.EscapeTest" />
-      <item itemvalue="Application.Test1" />
-      <item itemvalue="Application.WeixinTest" />
-      <item itemvalue="TestNG.AppTest.startAndKillAppium" />
+      <item itemvalue="Application.Maopao" />
+      <item itemvalue="Application.Xuanze" />
+      <item itemvalue="Application.Subject" />
+      <item itemvalue="Application.Test" />
+      <item itemvalue="Application.Test (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.WeixinTest" />
-        <item itemvalue="Application.EscapeTest" />
-        <item itemvalue="Application.Test1" />
-        <item itemvalue="Application.AppTest" />
-        <item itemvalue="TestNG.AppTest.startAndKillAppium" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Test" />
+        <item itemvalue="Application.Subject" />
+        <item itemvalue="Application.Xuanze" />
+        <item itemvalue="Application.Maopao" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +254,14 @@
       <option name="project" value="LOCAL" />
       <updated>1579011418223</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="allin2">
+      <created>1582019791057</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1582019791057</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -247,7 +282,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="allin" />
-    <option name="LAST_COMMIT_MESSAGE" value="allin" />
+    <MESSAGE value="allin2" />
+    <option name="LAST_COMMIT_MESSAGE" value="allin2" />
   </component>
   <component name="WindowStateProjectService">
     <state x="248" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582013367028">
@@ -258,42 +294,74 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="0" y="242" key="#com.intellij.ide.macro.MacrosDialog/0.0.1536.824@0.0.1536.824" timestamp="1582013174196" />
-    <state x="583" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1582008122719">
+    <state x="583" y="130" key="#com.intellij.ide.util.MemberChooser" timestamp="1585320905931">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="583" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1582008122719" />
+    <state x="583" y="130" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1585320905931" />
     <state x="524" y="272" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1582017757479">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="272" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1536.824@0.0.1536.824" timestamp="1582017757479" />
-    <state x="323" y="15" width="974" height="809" key="CommitChangelistDialog2" timestamp="1579011416293">
+    <state x="465" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1585320155789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="323" y="15" width="974" height="809" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1579011416293" />
+    <state x="465" y="355" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.824@0.0.1536.824" timestamp="1585320155789" />
+    <state x="323" y="15" width="974" height="809" key="CommitChangelistDialog2" timestamp="1582019782386">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="323" y="15" width="974" height="809" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1582019782386" />
     <state x="147" y="66" key="DiffContextDialog" timestamp="1579011383162">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="147" y="66" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1579011383162" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1582017934498">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1585326095516">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1582017934498" />
-    <state x="323" y="0" key="SettingsEditor" timestamp="1582017780270">
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1585326095516" />
+    <state width="1342" height="166" key="GridCell.Tab.0.bottom" timestamp="1585325735641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="323" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1582017780270" />
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1579011509842">
+    <state width="1342" height="166" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1585325735641" />
+    <state width="1342" height="166" key="GridCell.Tab.0.center" timestamp="1585325735641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1579011509842" />
-    <state x="454" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1582013424207">
+    <state width="1342" height="166" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1585325735641" />
+    <state width="1342" height="166" key="GridCell.Tab.0.left" timestamp="1585325735641">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="454" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1582013424207" />
+    <state width="1342" height="166" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1585325735641" />
+    <state width="1342" height="166" key="GridCell.Tab.0.right" timestamp="1585325735641">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1342" height="166" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1585325735641" />
+    <state x="323" y="0" key="SettingsEditor" timestamp="1584782384724">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="323" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1584782384724" />
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2" timestamp="1582019951543">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="361" y="144" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1582019951543" />
+    <state x="454" y="237" key="com.intellij.ide.util.TipDialog" timestamp="1585318742581">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="454" y="237" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1585318742581" />
+    <state x="560" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1585320423718">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="560" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1585320423718" />
     <state x="560" y="210" key="git4idea.merge.GitPullDialog" timestamp="1579011515105">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="560" y="210" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1579011515105" />
+    <state x="240" y="35" key="new project wizard" timestamp="1584789669843">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="240" y="35" key="new project wizard/0.0.1536.824@0.0.1536.824" timestamp="1584789669843" />
+    <state x="493" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1584883041443">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="493" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1584883041443" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

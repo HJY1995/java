@@ -51,5 +51,4 @@ public class HelloThree extends AbstractJavaSamplerClient {
         return sr;
     }
 
-
 }
