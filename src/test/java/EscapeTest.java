@@ -8,14 +8,14 @@ import utils.FileUtil;
 public class EscapeTest {
     public static void main(String[] args) {
         String str = FileUtil.readCsv("E:\\IdeaProjects\\javaStudy\\src\\test\\data\\capability.json");
-        System.out.println("读取的文件String:\n"+str);
-        str= JSON.parseObject(str).toJSONString();
-        System.out.println("转换为JSONString:\n"+str);
+        System.out.println("读取的文件String:\n" + str);
+        str = JSON.parseObject(str).toJSONString();
+        System.out.println("转换为JSONString:\n" + str);
         //转义
-        str= StringEscapeUtils.escapeJson(str);
-        System.out.println("转义后的JSONString:\n"+str);
+        str = StringEscapeUtils.escapeJson(str);
+        System.out.println("转义后的JSONString:\n" + str);
         //反转义
-        str=StringEscapeUtils.unescapeJson(str);
-        System.out.println("反转义后的JSONString:\n"+str);
+        str = StringEscapeUtils.unescapeJson(str);
+        System.out.println("反转义后的JSONString:\n" + str);
     }
 }

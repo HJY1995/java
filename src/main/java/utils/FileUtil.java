@@ -9,6 +9,7 @@ import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+
 @Slf4j
 public class FileUtil {
 
@@ -25,9 +26,9 @@ public class FileUtil {
                 sb.append(line + "\n");
             }
         } catch (FileNotFoundException e) {
-            log.error(e.getMessage(),e.fillInStackTrace());
+            log.error(e.getMessage(), e.fillInStackTrace());
         } catch (IOException e) {
-            log.error(e.getMessage(),e.fillInStackTrace());
+            log.error(e.getMessage(), e.fillInStackTrace());
         }
         return sb.toString();
     }

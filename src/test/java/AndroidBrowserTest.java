@@ -1,4 +1,3 @@
-import io.appium.java_client.MobileBy;
 import io.appium.java_client.android.AndroidDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
@@ -34,8 +33,8 @@ public class AndroidBrowserTest {
 
         System.out.println(driver.getWindowHandle());
         //获取所有handles
-        Set<String> handles=driver.getContextHandles();
-        for(String s:handles){
+        Set<String> handles = driver.getContextHandles();
+        for (String s : handles) {
             System.out.println(s);
         }
         //使用selenium定位

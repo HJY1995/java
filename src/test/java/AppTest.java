@@ -1,9 +1,5 @@
 import io.appium.java_client.MobileBy;
-import io.appium.java_client.TouchAction;
 import io.appium.java_client.android.AndroidDriver;
-import io.appium.java_client.touch.LongPressOptions;
-import io.appium.java_client.touch.WaitOptions;
-import io.appium.java_client.touch.offset.PointOption;
 import org.openqa.selenium.By;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.testng.annotations.Test;
@@ -11,39 +7,38 @@ import org.testng.annotations.Test;
 import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.time.Duration;
 
 public class AppTest {
     //使用appium-server启动APP
     public static void main(String[] args) throws IOException, InterruptedException {
         //启动appium-server
-        String startAppium="cmd /c start appium -a 127.0.0.1 -p 4723 -g E:\\appium.log --local-timezone --log-timestamp";
+        String startAppium = "cmd /c start appium -a 127.0.0.1 -p 4723 -g E:\\appium.log --local-timezone --log-timestamp";
         Runtime.getRuntime().exec(startAppium);
         //启动appium-server需要一定时间，这里需要设置等待时间
         Thread.sleep(5000);
 
         //设置Capabilities参数
-        DesiredCapabilities desiredCapabilities=new DesiredCapabilities();
+        DesiredCapabilities desiredCapabilities = new DesiredCapabilities();
         //必要参数
         desiredCapabilities.setCapability("deviceName", "127.0.0.1:7555");
         desiredCapabilities.setCapability("platformName", "Android");
-        desiredCapabilities.setCapability("platformVersion","6.0.1");
-        desiredCapabilities.setCapability("appPackage","com.tencent.mobileqq");
-        desiredCapabilities.setCapability("appActivity",".activity.LoginActivity");
+        desiredCapabilities.setCapability("platformVersion", "6.0.1");
+        desiredCapabilities.setCapability("appPackage", "com.tencent.mobileqq");
+        desiredCapabilities.setCapability("appActivity", ".activity.LoginActivity");
         //可选参数
         //不要重置签名
-        desiredCapabilities.setCapability("noSign",true);
+        desiredCapabilities.setCapability("noSign", true);
         //不清除缓存
-        desiredCapabilities.setCapability("noReset",true);
+        desiredCapabilities.setCapability("noReset", true);
         //设置使用unicode键盘，让自动化脚本实现过程中能够输入中文，成对使用，单独使用下面的某一个属性会ignore
-        desiredCapabilities.setCapability("unicodeKeyboard",true);
-        desiredCapabilities.setCapability("resetKeyboard",true);
+        desiredCapabilities.setCapability("unicodeKeyboard", true);
+        desiredCapabilities.setCapability("resetKeyboard", true);
 
         //电脑连接了多个设备时，指定设备
         //desiredCapabilities.setCapability("udid","127.0.0.1:7555");
 
         //创建driver对象
-        AndroidDriver  driver=new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), desiredCapabilities);
+        AndroidDriver driver = new AndroidDriver(new URL("http://127.0.0.1:4723/wd/hub"), desiredCapabilities);
         Thread.sleep(3000);
         //定位并操作元素
         driver.findElement(MobileBy.AccessibilityId("请输入QQ号码或手机或邮箱")).sendKeys("123456");
@@ -56,8 +51,8 @@ public class AppTest {
         driver.quit();
 
         //关闭appium-server 和命令行窗口
-        String killCmd="taskkill /F /IM cmd.exe";
-        String killNode="taskkill /F /IM node.exe";
+        String killCmd = "taskkill /F /IM cmd.exe";
+        String killNode = "taskkill /F /IM node.exe";
 
         Runtime.getRuntime().exec(killNode);
         Runtime.getRuntime().exec(killCmd);
@@ -104,14 +99,14 @@ public class AppTest {
     @Test
     public void startAndKillAppium() throws IOException, InterruptedException {
         //启动appium-server
-        String startAppium="cmd /c start appium -a 127.0.0.1 -p 4723 -g E:\\appium.log --local-timezone --log-timestamp";
+        String startAppium = "cmd /c start appium -a 127.0.0.1 -p 4723 -g E:\\appium.log --local-timezone --log-timestamp";
         //Runtime.getRuntime().exec() 执行cmd命令
         Runtime.getRuntime().exec(startAppium);
 
         Thread.sleep(2000);
         //关闭appium-server和命令行窗口，因为appium-server是用nodejs写的，可以直接关闭node就关闭了appium-server
-        String KillNode="taskkill /F /IM node.exe";
-        String killCmd="taskkill /F /IM cmd.exe";
+        String KillNode = "taskkill /F /IM node.exe";
+        String killCmd = "taskkill /F /IM cmd.exe";
         Runtime.getRuntime().exec(KillNode);
         Runtime.getRuntime().exec(killCmd);
     }
@@ -178,17 +173,11 @@ public class AppTest {
 //        action.longPress(LongPressOptions.longPressOptions().withElement(ElementOption.element(driver.findElementByXPath(xpath))).withDuration(last)).waitAction(WaitOptions.waitOptions(last)).perform();
 
 
-
-
-
-
         Thread.sleep(10000);
         //关闭APP和driver
         driver.closeApp();
         driver.quit();
     }
-
-
 
 
 }

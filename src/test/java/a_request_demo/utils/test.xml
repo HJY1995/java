@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="suite1">
+    <test name="test1">
+        <classes>
+            <class name="a_request_demo.utils.HttpRequest">
+                <methods>
+                    <include name="test1"/>
+                    <exclude name="test2"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

@@ -2,9 +2,7 @@ package appdriver;
 
 import io.appium.java_client.android.AndroidDriver;
 import lombok.extern.slf4j.Slf4j;
-import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.remote.DesiredCapabilities;
-
 
 import java.net.URL;
 
@@ -16,7 +14,7 @@ public class VXDriver {
     public AndroidDriver driver = null;
 
     // 设备名称、app的main Activity类、appium服务器ip端口、等待启动时间
-    public VXDriver(String platformVersion,String deviceName, String appPackage, String appActivity, String appiumServerIP,String waitTime) {
+    public VXDriver(String platformVersion, String deviceName, String appPackage, String appActivity, String appiumServerIP, String waitTime) {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         //必要参数
         capabilities.setCapability("deviceName", deviceName);
@@ -43,14 +41,14 @@ public class VXDriver {
         capabilities.setCapability("recreateChromeDriverSessions", true);*/
 
         try {
-            driver=new AndroidDriver(new URL(appiumServerIP), capabilities);
-            int t=1000;
-            t=Integer.parseInt(waitTime);
-            Thread.sleep(t*1000);
+            driver = new AndroidDriver(new URL(appiumServerIP), capabilities);
+            int t = 1000;
+            t = Integer.parseInt(waitTime);
+            Thread.sleep(t * 1000);
             log.info("APP正在启动中……");
         } catch (Exception e) {
             log.error("APP启动失败，请检查配置！");
-            log.error(e.getMessage(),e.fillInStackTrace());
+            log.error(e.getMessage(), e.fillInStackTrace());
         }
     }
 

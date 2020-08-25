@@ -53,10 +53,10 @@ ChromeOptions使用来定制启动选项，因为在appium中切换context识别
         driver.findElement(By.id("com.tencent.mm:id/s5")).click();
         Thread.sleep(10000);
         //切换到webview定位
-        System.out.println("所有的contextHandles:"+driver.getContextHandles());
+        System.out.println("所有的contextHandles:" + driver.getContextHandles());
         System.out.println("切换前");
         driver.context("WEBVIEW_com.tencent.mm:toolsmp");
-        System.out.println("切换后:"+driver.getContext());
+        System.out.println("切换后:" + driver.getContext());
         Thread.sleep(5000);
 
         //叉掉弹屏广告
@@ -73,7 +73,7 @@ ChromeOptions使用来定制启动选项，因为在appium中切换context识别
         driver.findElement(By.xpath("//android.widget.ImageButton[@content-desc='更多']")).click();
         Thread.sleep(1000);
         //点击回到首页
-        String cancelButton="cmd /c start adb shell input tap 530,2250";
+        String cancelButton = "cmd /c start adb shell input tap 530,2250";
         Runtime.getRuntime().exec(cancelButton);
     }
 }

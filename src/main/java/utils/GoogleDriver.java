@@ -7,14 +7,14 @@ import org.openqa.selenium.chrome.ChromeOptions;
 public class GoogleDriver {
     WebDriver driver;
 
-    public GoogleDriver(String driverPath){
-        System.setProperty("webdriver.chrome.driver",driverPath);
+    public GoogleDriver(String driverPath) {
+        System.setProperty("webdriver.chrome.driver", driverPath);
 
-        ChromeOptions chromeOptions=new ChromeOptions();
+        ChromeOptions chromeOptions = new ChromeOptions();
         //去除浏览器上的爬虫信息"Chrome正在受到自动测试软件的控制"
-            //这是老版本的 Chromedriver，新版Chromedriver不再有这个属性
+        //这是老版本的 Chromedriver，新版Chromedriver不再有这个属性
         //chromeOptions.addArguments("disable-infobars");
-            //新版Chromedriver设置
+        //新版Chromedriver设置
         //chromeOptions.setExperimentalOption("excludeSwitches", new String[]{"enable-automation"});
 
         /**
@@ -38,11 +38,11 @@ public class GoogleDriver {
         }
     }
 
-    public void quit(){
+    public void quit() {
         this.driver.quit();
     }
 
-    public void close(){
+    public void close() {
         this.driver.close();
     }
 

@@ -1,6 +1,6 @@
 package shen_qian_copy.shen_copy;
 
-public class Subject implements Cloneable{
+public class Subject implements Cloneable {
     private String name;
 
     public Subject(String name) {
@@ -9,9 +9,10 @@ public class Subject implements Cloneable{
 
     /**
      * 重写clone()，每个对象都调用父类的clone() 方法
+     *
      * @return
      */
-    public Object clone(){
+    public Object clone() {
         try {
             return super.clone();
         } catch (CloneNotSupportedException e) {
@@ -27,6 +28,7 @@ public class Subject implements Cloneable{
     public String getName() {
         return name;
     }
+
     public void setName(String name) {
         this.name = name;
     }
